@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+header{
+
+}
+
+header h1{
+text-transform: uppercase;
+font-size: 128px;
+text-align: center;
+margin: 0;
+}
+
+header p{
+text-align: center;
+font-size: 40px;
+margin: 0;
+}
+
+.header-flex{
+
+}
+.nav{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+.nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.imagen-index{
+    width: 100%;
+}
+
+.imagen.index img{
+    width: 100%;
+}
+
+.categorias{
+    width: 100%;
+}
+.productos-inicio{
+}
+
+.productos-inicio img{
+}
+
+.ultimos-ingresos{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.ultimos-ingresos p{
+    color: white;
+    letter-spacing: 3px;
+}
+
+.productos-ingresos{
+
+}
+
+.ingresos{
+
+}
+
+    button{
+    background-color: #F2AEE7;
+    border: none;
+    padding: 10px;
+
+}
+
+.footer{
+    width: 100%;
+    margin: 20px 0px  0px   0px;
+
+}
+.categorias-footer{
+    width: 100%;
+    background-color: #F2AEE7;
+    color: #87137B;
+    text-align: center;
+}
+
+.categorias-footer a{
+    text-decoration: none;
+    color: #87137B;
+}
+.categoria{
+
+}
+
+.contactanos{
+
+}
+
+.categorias-productos{
+    width: 100%;
+}
+
+.inicio-producto{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.productos{
+
+}
+
+.productos img{
+    width: 100%;
+}
+
+.inicio-preguntas-frecuentes{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.preguntas-frecuentes{
+    margin: 1rem;
+    text-align: left;
+    
+}
+
+.preguntas-frecuentes h2{
+    color: #DB91D3;
+}
+
+.preguntas-frecuentes li{
+    margin-left: 20px;
+}
+
+.productos-ultimo-ingreso{
+    
+}
+
+.productos-ultimo{
+
+}
+.inicio-ultimo-ingreso{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inicio-contacto{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contacto{
+    margin-left: 20px;
+}
+
+.contenedor-contacto{
+    width: 80%;
+    margin: 3.125rem auto;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-formulario label{
+    font-weight: bold;
+}
+
+.input-contacto{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    
+}
+
+.contenedor-formulario :focus{
+    outline: none;
+}
+
+.contenedor-formulario textarea{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    
+}
+
+.btn-form{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F7CEF1;
+}
