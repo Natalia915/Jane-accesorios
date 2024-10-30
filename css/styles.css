@@ -36,7 +36,8 @@ margin: 0;
     text-align: center;
     padding: 20px 0;
 }
-Nav ul{
+
+nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -49,6 +50,13 @@ Nav ul{
     padding: 0 20px;
 }
 
+.nav-celular{
+    display: none;
+}
+
+.nav-alinear{
+    text-align: center;
+}
 .imagen-index{
     max-width: 100%;
 }
@@ -116,22 +124,24 @@ button{
     border: none;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 8px
 }
 
 .footer{
     width: 100%;
     margin: 20px 0px  0px  0px;
     height: 100%;
+
 }
 .categorias-footer{
-    width: 100%;
+    max-width: 100%;
     background-color: #F2AEE7;
     color: #87137B;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    height: 100%;
+    max-height: 100%;
 }
 
 .c1{
@@ -235,7 +245,7 @@ button{
 }
 
 .cuadro2 img{
-    width: 73%;
+    width: 90%;
 }
 
 .productos-ultimo{
@@ -384,3 +394,176 @@ label{
     }
 }
 
+/*mobile*/
+
+@media (min-width: 576px)and (max-width: 720px){
+    .header{
+        font-size: 15px;
+    }
+
+    .nav{
+
+    }
+
+    .nav a{
+        font-size: 18px;
+        background-color: black;
+        text-align: center;
+        padding: 0 ;
+    }
+
+    .categorias{
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        display: flex;
+    }
+
+    .categorias img{
+        width: 70%;
+    }
+
+    .productos-ingresos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .productos-ingresos img{
+        width: 80%;
+    }
+
+    .categorias-productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cuadro1{
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+    }
+}
+
+@media (min-width: 320px)and (max-width: 600px){
+
+    .header img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .header p{
+        font-size: 15px;
+    }
+
+    .nav{
+        background-color: transparent;
+        text-align: center;
+        padding: 0;
+    }
+    .nav ul{
+        height: 40px;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        bottom: 0;
+        background-color: black;
+        align-items: center;
+    }
+
+    .nav a{
+        font-size: 9px;
+        padding: 0 6px;
+    }
+    .nav-celular{
+        display: block;
+    }
+
+    .nav-celular input{
+        border-radius: 10px;
+        padding: 5px 50px;
+        border: none;
+        background-color: #D9D9D9;
+    }
+
+    .nav-celular input:focus{
+        outline: none;
+    }
+
+
+    .footer{
+        width: 100%;
+        margin: 20px 0px  40px  0px;
+        height: 100%;
+    }
+
+    .productos-inicio{
+        font-size: 20px;
+    }
+
+    .categorias {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ultimos-ingresos p{
+        font-size: 13px;
+    }
+    .productos-ingresos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categorias-footer{
+        font-size: 10px;
+    }
+
+    /*productos*/
+
+    .categorias-productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuadro1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuadro2 img{
+        width: 280px;
+    }
+
+    .contenedor-general-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto{
+        margin-right: 100px;
+        margin-top: 5px;
+
+    }
+
+    .contenedor-formulario input{
+        padding: 15px;
+        width: 110%;
+    }
+
+    .contenedor-formulario textarea{
+        width: 110%;
+        height: 110px;
+    }
+
+}
