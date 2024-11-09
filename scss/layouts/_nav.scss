@@ -1,0 +1,26 @@
+.nav{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 30px;
+        padding: 0 20px;
+    }
+}
+
+.nav-celular{
+    display: none;
+}
+
+.nav-alinear{
+    text-align: center;
+}

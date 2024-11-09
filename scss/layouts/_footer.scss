@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    margin: 20px 0px  0px  0px;
+    height: 100%;
+}
+
+.categorias-footer{
+    max-width: 100%;
+    background-color: #F2AEE7;
+    color: #87137B;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    max-height: 100%;
+}
+
+.c1{
+    display: grid;
+    justify-items: start;
+    align-items: start;
+
+    p, a{
+        text-align: left;
+    }
+}
+
+.categorias-footer a{
+    text-decoration: none;
+    color: #87137B;
+}
