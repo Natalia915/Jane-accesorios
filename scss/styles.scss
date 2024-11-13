@@ -178,6 +178,13 @@ button{
         object-fit: contain;
         width: 90%;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+        transition: box-shadow 0.4s ease;
+    }
+
+    img:hover{
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+        filter: brightness(0.8);
+        cursor: pointer;
     }
 }
 
@@ -228,6 +235,13 @@ button{
     img{
         width: 90%;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+        transition: box-shadow 0.4s ease;
+    }
+
+    img:hover{
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+        filter: brightness(0.8);
+        cursor: pointer;
     }
 }
 
@@ -239,6 +253,13 @@ button{
     img{
         width: 73%;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+        transition: box-shadow 0.4s ease;
+    }
+
+    img:hover{
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+        filter: brightness(0.8);
+        cursor: pointer;
     }
 }
 
@@ -577,5 +598,5 @@ h2.text-center{
             display: block; 
             width: 100%; 
         }
-    
+
 }
