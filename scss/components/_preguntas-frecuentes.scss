@@ -1,3 +1,5 @@
+@use "../utilities/maps";
+@use "sass:map";
 .inicio-preguntas-frecuentes{
     margin-left: 1rem;
     margin-top: 1rem;
@@ -9,7 +11,7 @@
     text-align: left;
 
     h2{
-        color: #DB91D3;
+        color: map.get(maps.$colores, "primario");
     }
 
     li{

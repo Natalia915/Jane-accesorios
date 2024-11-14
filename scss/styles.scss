@@ -1,3 +1,26 @@
+//COMPONENTS
+
+@use "components/contacto";
+@use "components/index";
+@use "components/preguntas-frecuentes";
+@use "components/productos";
+@use "components/ultimo-ingreso";
+
+//LAYOUTS
+
+@use "layouts/footer";
+@use "layouts/header";
+@use "layouts/nav";
+
+//MEDIA-QUERIES
+
+@use "media-queries/media-queries";
+
+//UTILITES
+@use "sass:map"; 
+@use "utilities/maps";
+@use "utilities/mixins.scss";
+
 *{
     margin: 0;
     padding: 0;
@@ -600,3 +623,4 @@ h2.text-center{
         }
 
 }
+

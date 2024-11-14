@@ -1,0 +1,12 @@
+@mixin gradiente {
+    background-image: linear-gradient(to right, #f9b3f6, #f9a3f6, #f893f6, #f782f6, #f670f6);
+}
+
+button {
+    @include gradiente;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
