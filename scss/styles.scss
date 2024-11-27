@@ -453,7 +453,7 @@ h2.text-center{
 
     .form-control {
         display: block; 
-        width: 100%; 
+        width: 90%; 
     }
     .btn-primary{
         margin-left: 330px;
@@ -535,11 +535,19 @@ h2.text-center{
     .form-label {
         display: block; 
         margin-bottom: 8px; 
+        margin-left: 10px;
+        align-items: center;
     }
 
     .form-control {
         display: block; 
-        width: 100%; 
+        width: 90%; 
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .btn-primary {
+        margin-left: 130px;
     }
 }
 
