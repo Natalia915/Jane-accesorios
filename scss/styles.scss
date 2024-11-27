@@ -549,6 +549,13 @@ h2.text-center{
     .btn-primary {
         margin-left: 130px;
     }
+
+    .footer {
+        width: 100%;
+        margin: 0;  
+        padding: 0;  
+        position: relative; 
+    }
 }
 
 @media (min-width: 320px)and (max-width: 600px){
