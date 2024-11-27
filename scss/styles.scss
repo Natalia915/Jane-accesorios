@@ -52,18 +52,19 @@ header{
     }
 }
 
-.nav{
+.nav-menu{
     background-color: black;
     text-align: center;
+    list-style: none;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 
-    ul{
-        display: flex;
-        justify-content: center;
-        list-style: none;
+    li{
+        margin: 0 10px;
     }
 
-    a{
+    a{ 
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 30px;
@@ -71,13 +72,45 @@ header{
     }
 }
 
-.nav-celular{
-    display: none;
-}
-
 .nav-alinear{
     text-align: center;
 }
+
+    .nav-celular{
+        display: none;
+        flex-direction: column;
+        list-style: none;
+        background-color: black;
+        margin: 0;
+        padding: 20px 0;
+    input{
+        border-radius: 10px;
+        padding: 5px 50px;
+        border: none;
+        background-color: #D9D9D9;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+
+    li{
+        margin: 10px 0;
+    }
+
+    a{
+        font-size: 30px;
+    }
+    }
+
+    .nav-hamburguesa {
+        display: none;
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: gray;
+        cursor: pointer;
+    }
 
 .imagen-index{
     max-width: 100%;
@@ -357,7 +390,9 @@ label{
     padding: 10px;
     border-radius: 10px;
     border: none;
-    background-color: #F7CEF1;
+    background-image: linear-gradient(to right, #f9b3f6, #f9a3f6, #f893f6, #f782f6, #f670f6);;
+    margin-top: 12px;
+    margin-bottom: 190px;
 }
 
 .inicio-registro{
@@ -395,7 +430,8 @@ h2.text-center{
         font-size: 20px;
     }
 
-    .nav a{
+    .nav ul li a {
+        padding: 0 8px;
         font-size: 20px;
     }
 
@@ -438,8 +474,24 @@ h2.text-center{
         background-color: black;
         text-align: center;
         padding: 0 ;
+        display: flex;
     }
 
+    .nav ul {
+        display: none;
+
+    .nav-hamburguesa {
+        display: block; 
+    }
+
+    .nav-celular {
+        display: none; 
+    }
+
+    .nav-celular.activo {
+        display: flex; 
+    }
+}
     .categorias{
         width: 100%;
         text-align: center;
@@ -506,43 +558,37 @@ h2.text-center{
         }
     }
 
-    .nav{
-        background-color: transparent;
-        text-align: center;
-        padding: 0;
-    ul{
-        height: 40px;
-        width: 100%;
-        position: fixed;
-        z-index: 100;
-        left: 0;
-        bottom: 0;
+    .nav a{
+        font-size: 18px;
         background-color: black;
-        align-items: center;
-    }
-    a{
-        font-size: 9px;
-        padding: 0 6px;
-    }
-}
-
-    .nav-celular{
-        display: block;
-    input{
-        border-radius: 10px;
-        padding: 5px 50px;
-        border: none;
-        background-color: #D9D9D9;
-    }
-    input:focus{
-        outline: none;
-    }
+        text-align: center;
+        padding: 0 ;
+        display: flex;
+        color: white;
+        text-decoration: 0;
+        margin-left: 10px;
     }
 
-    .footer{
+    .nav ul {
+        display: none;
+    }
+    .nav-hamburguesa {
+        display: block; 
+    }
+
+    .nav-celular {
+        display: none; 
+    }
+
+    .nav-celular.activo {
+        display: flex; 
+    }
+
+    .footer {
         width: 100%;
-        margin: 20px 0px  40px  0px;
-        height: 100%;
+        margin: 0;  
+        padding: 0;  
+        position: relative; 
     }
 
     .productos-inicio{
@@ -600,27 +646,33 @@ h2.text-center{
         padding: 15px;
         width: 110%;
     textarea{
-        width: 110%;
-        height: 110px;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+    textarea{
+        height: 150px;
+        resize: vertical;
     }
     }
 
         /*usuario*/
 
-        .btn-primary{
-            margin-bottom: 190px;
+        .btn-primary {
             margin-left: 120px;
         }
     
         .form-label {
             display: block; 
-            margin-bottom: 8px; 
+            margin-bottom: 8px;
         }
     
         .form-control {
             display: block; 
-            width: 100%; 
+            width: 90%; 
         }
 
+        
 }
 

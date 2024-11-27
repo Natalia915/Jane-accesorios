@@ -1,24 +1,27 @@
 @use "../utilities/variables";
 
-.nav{
+.nav-menu{
     background-color: variables.$color-card;
     text-align: center;
+    list-style: none;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 
-    ul{
-        display: flex;
-        justify-content: center;
-        list-style: none;
+    li{
+        margin: 0 10px;
     }
 
-    a{
+    a{ 
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 30px;
         padding: 0 20px;
     }
 }
-
+.nav-alinear {
+    text-align: center;
+}
 .nav-celular{
     display: none;
 }

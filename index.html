@@ -43,19 +43,27 @@
     </header>
 
     <nav class="nav">
-        <ul>
+        <ul class="nav-menu">
             <li><a href="#">Inicio</a></li>
             <li><a href="./pages/productos.html">Productos</a></li>
-            <li><a href="./pages/ultimo-ingreso.html" class="nav-alinear">Último Ingreso</a></li>
-            <li><a href="./pages/preguntas-frecuentes.html" class="nav-alinear">Preguntas Frecuentes</a></li>
+            <li><a href="./pages/productos.html">Último Ingreso</a></li>
+            <li><a href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
             <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
-
-        <div class="nav-celular">
-            <input class="input-nav" placeholder="¿Que estás buscando?" type="text" name=" name" id="name">
+        <div class="nav-alinear">
+            <button class="nav-hamburguesa" id="nav-toggle">☰</button>
+            <ul class="nav-celular" id="nav-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/productos.html">Último Ingreso</a></li>
+                <li><a href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
         </div>
-
+        
     </nav>
+
+    <script src="main.js"></script>
 
     <div class="imagen-index">
         <img src="./img/bannerr.png" alt="Imagen-inicio">
